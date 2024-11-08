@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-21T22:48:08 IST" name="Default suite" finished-at="2024-05-21T22:48:08 IST" duration-ms="168">
+    <groups>
+      <group name="all">
+        <method signature="Test1.TC1()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC1" class="com.sam.grouping.Test1"/>
+        <method signature="Test1.TC2()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC2" class="com.sam.grouping.Test1"/>
+        <method signature="Test1.TC3()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC3" class="com.sam.grouping.Test1"/>
+      </group> <!-- all -->
+      <group name="windows.smoke">
+        <method signature="Test1.TC3()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC3" class="com.sam.grouping.Test1"/>
+      </group> <!-- windows.smoke -->
+      <group name="functional">
+        <method signature="Test1.TC3()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC3" class="com.sam.grouping.Test1"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="Test1.TC2()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC2" class="com.sam.grouping.Test1"/>
+        <method signature="Test1.TC3()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC3" class="com.sam.grouping.Test1"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="Test1.TC1()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC1" class="com.sam.grouping.Test1"/>
+        <method signature="Test1.TC2()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC2" class="com.sam.grouping.Test1"/>
+      </group> <!-- Regression -->
+      <group name="windows.Regression">
+        <method signature="Test1.TC2()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" name="TC2" class="com.sam.grouping.Test1"/>
+      </group> <!-- windows.Regression -->
+    </groups>
+    <test started-at="2024-05-21T22:48:08 IST" name="Default test" finished-at="2024-05-21T22:48:08 IST" duration-ms="168">
+      <class name="com.sam.grouping.Test1">
+        <test-method signature="TC1()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" started-at="2024-05-21T22:48:08 IST" name="TC1" finished-at="2024-05-21T22:48:08 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method signature="TC2()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" started-at="2024-05-21T22:48:08 IST" name="TC2" finished-at="2024-05-21T22:48:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method signature="TC3()[pri:0, instance:com.sam.grouping.Test1@3349e9bb]" started-at="2024-05-21T22:48:08 IST" name="TC3" finished-at="2024-05-21T22:48:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+      </class> <!-- com.sam.grouping.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
